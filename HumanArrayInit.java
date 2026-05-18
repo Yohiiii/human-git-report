@@ -3,13 +3,13 @@ class HumanArrayInit{
     public static void main(String [] args){
         //初期化
         Human[] a={
-            new Human("丈司",180,50),
+            new Human("丈司",170,50),
             new Human("家",170,60),
             };
         //代入
         Human[] b=new Human[2];
-        b=new Human[]{new Human("丈司",180,55),
-        new Human("家",175,55)
+        b=new Human[]{new Human("丈司",170,55),
+        new Human("家",170,55)
         };
 
         //表示
